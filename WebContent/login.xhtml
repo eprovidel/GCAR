@@ -10,11 +10,13 @@
 	<title>GCAR | Log in</title>
 	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'></meta>
 	<f:facet name="first">
-		<h:outputStylesheet name="bootstrap/css/bootstrap.css"/>
-<!-- 		<h:outputStylesheet name="font-awesome/css/font-awesome.css"/> -->
+	
 		<link href="#{request.contextPath}/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	
+		<h:outputStylesheet name="bootstrap/css/bootstrap.css"/>
 		<h:outputStylesheet name="dist/css/AdminLTE.min.css"/>
 		<h:outputStylesheet name="plugins/iCheck/square/blue.css"/>
+		<h:outputStylesheet name="css/gcar-v1.css"/>
 		
 		<h:outputScript name="plugins/jQuery/jQuery-2.1.3.min.js"/>
 		<h:outputScript name="bootstrap/js/bootstrap.min.js"/>
@@ -22,6 +24,7 @@
 		<h:outputScript name="plugins/fastclick/fastclick.min.js"/>
 		<h:outputScript name="dist/js/app.min.js"/>
 		<h:outputScript name="dist/js/demo.js"/>
+		<h:outputScript name="js/gcar.js"/>
 	</f:facet>
 </h:head>
   
@@ -34,9 +37,11 @@
     
     	<div class="login-box-body">
         	<p class="login-box-msg">Ingrese sus datos</p>
-        	<h:form>
-          		
-          		<div class="form-group has-feedback">
+        	<h:form id="form">
+        	
+        		<p:messages id="msg" style="list-style:none" styleClass="mensajes" showIcon="false" closable="true" />
+        	
+          		<div class="form-group has-feedback">             			
           			       		
           			<h:outputLabel for="rut" value="Rut"/>
           			<p:inputText styleClass="form-control" id="rut" value="#{userBean.rut}" required="true"
@@ -55,12 +60,13 @@
             		<span class="glyphicon glyphicon-lock form-control-feedback"></span>
             		
           		</div>
-          				
+     		
           		<div class="row">
 		            <div class="col-xs-12">
 		            	<p:spacer></p:spacer>
-		              	<p:commandButton action="#{loginBean.loginUser}" value="Ingresar" ajax="false"
-			         		styleClass="btn btn-primary btn-block btn-flat"/>
+		              	<p:commandButton id="ingresarButton" action="#{loginBean.loginUser}" value="Ingresar" update="msg"
+		              		styleClass="btn btn-primary btn-block btn-flat">
+			         	</p:commandButton>			      
 		            </div><!-- /.col -->
 		     	</div>
 		 	</h:form>
@@ -68,7 +74,7 @@
         	<div class="social-auth-links text-center">
           	</div><!-- /.social-auth-links -->
 
-        	<a href="register.html" class="text-center">Registrarme como nuevo usuario</a>
+        	<a href="registrarse.xhtml" class="text-center">Registrarme como nuevo usuario</a>
 
       	</div><!-- /.login-box-body -->
 	</div><!-- /.login-box -->
