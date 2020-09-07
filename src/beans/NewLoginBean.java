@@ -4,12 +4,11 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 import javax.el.ELContext;
-//import javax.faces.application.ConfigurableNavigationHandler;
+import javax.faces.application.ConfigurableNavigationHandler;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
-//import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
-//import javax.faces.event.ComponentSystemEvent;
+import javax.faces.event.ComponentSystemEvent;
 import javax.servlet.http.HttpSession;
 
 import util.EsquemaBean;
@@ -87,7 +86,7 @@ public class NewLoginBean {
 		}
 	}
 
-	/*
+	
 	public String logout() {
 
 		ELContext elContext = FacesContext.getCurrentInstance().getELContext();
@@ -99,7 +98,7 @@ public class NewLoginBean {
 		session.setAttribute("userBean", null);
 		session.invalidate();
 		return "login";
-	}
+	}	
 
 	public void isAdmin(ComponentSystemEvent event){
 		HttpSession session = Util.getSession();
@@ -150,6 +149,4 @@ public class NewLoginBean {
 	public String registrarse(){
 		return "registrarse";
 	}
-	 */
-
 }

@@ -9,7 +9,7 @@
 <h:body>
 
 	<f:metadata>
-		<f:event listener="#{loginBean.isAdmin}" type="preRenderView" />
+		<f:event listener="#{newLoginBean.isAdmin}" type="preRenderView" />
 	</f:metadata>
 		
 	<ui:composition template="/templates/homeTemplate.xhtml">
@@ -78,7 +78,7 @@
 			                    <p:message for="materno"/>
 			                    
 			                    <h:outputText value="Año del Curso *" />
-			                    <p:inputText id="año" value="#{gestionarCuentasBean.userBean.año}" label="año"
+			                    <p:inputText id="año" value="#{gestionarCuentasBean.userBean.anyo}" label="año"
 			                    	required="true" requiredMessage="Debe ingresar el año"
 			                    	validatorMessage="Debe ingresar sólo dígitos">
 			                    	<f:validateRegex pattern="[0-9]*$" />
@@ -145,7 +145,7 @@
 			                        <h:outputText value="#{gestionarCuentasBean.userBean.materno}" styleClass="outputLabel"/>
 			                        
 			                        <h:outputText value="Año del Curso: " styleClass="formato"/>
-			                        <h:outputText value="#{gestionarCuentasBean.userBean.año}" styleClass="outputLabel"/>
+			                        <h:outputText value="#{gestionarCuentasBean.userBean.anyo}" styleClass="outputLabel"/>
 			                        
 			                    </h:panelGrid>
 			                    </p:fieldset>

@@ -1,99 +1,45 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:ui="http://java.sun.com/jsf/facelets"
-	xmlns:h="http://java.sun.com/jsf/html"
-	xmlns:f="http://java.sun.com/jsf/core"
-	xmlns:p="http://primefaces.org/ui">
+<html xmlns="http://www.w3.org/1999/xhtml"  
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core">
 
-<h:body id="menuProfesor">
-	<h:form prependId="false" id="formMenuProfesor">    
-
-		<aside class="main-sidebar">
-	    	<!-- sidebar: style can be found in sidebar.less -->
-	        <section class="sidebar">
-	          	<!-- Sidebar user panel -->
-	          	<div class="user-panel">
-	            	<div class="pull-left image">
-					    <h:graphicImage value="#{resource['img/teacher37.png']}" styleClass="img-circle user-image"/>
-	            	</div>
-	            	<div class="pull-left info">
-	              		<p>
-	              			<h:outputText value="#{usuario.nombre1} #{usuario.paterno}"/>
-	              		</p>
-	              		<a>
-	              			<i class="fa fa-circle text-success" />
-	              			<h:outputText value="#{usuario.tipo == 1 ? 'Profesor' : 'Alumno'}" />	
-	              		</a>
-	            	</div>
-	          	</div>
-	     		<!-- sidebar menu: : style can be found in sidebar.less -->
-	          	<ul class="sidebar-menu">
-	            	<li class="header">MENÚ</li>
-	            	<li class="treeview">
-	              		<a href="#">
-	                		<i class="fa fa-users"></i> 
-	               			<span>Gestionar Usuarios</span> 
-	               			<i class="fa fa-angle-left pull-right"></i>
-	              		</a>
-			          	<ul class="treeview-menu">
-							<li><a href="crearCuenta.xhtml"><i class="fa fa-circle-o"></i> Crear Cuenta </a></li>
-			                <li><a href="#"><i class="fa fa-circle-o"></i> Eliminar Cuenta </a></li>
-			                <li><a href="#"><i class="fa fa-circle-o"></i> Modificar Cuenta</a></li>
-			            </ul>
-	            	</li>
-	            	<li class="treeview">
-	              		<a href="#">
-	                		<i class="fa fa-archive"></i>
-	                		<span>Gestionar BD</span>
-	          		      <i class="fa fa-angle-left pull-right"></i>
-	            	  	</a>
-	            	  	<ul class="treeview-menu">
-	                		<li><a href="#"><i class="fa fa-circle-o"></i> Crear BD </a></li>
-	                		<li><a href="#"><i class="fa fa-circle-o"></i> Eliminar BD </a></li>
-	                		<li><a href="#"><i class="fa fa-circle-o"></i> Modificar BD </a></li>
-	                		<li><a href="#"><i class="fa fa-circle-o"></i> Cargar BD </a></li>
-	              		</ul>
-	            	</li>
-	            	<li class="treeview">
-		            	<a href="#">
-		                	<i class="fa fa-table"></i>
-		                	<span>Gestionar Relaciones</span>
-			                <i class="fa fa-angle-left pull-right"></i>
-			            </a>
-		              	<ul class="treeview-menu">
-		                	<li><a href="#"><i class="fa fa-circle-o"></i> Crear Relación </a></li>
-				            <li><a href="#"><i class="fa fa-circle-o"></i> Eliminar Relación </a></li>
-				            <li><a href="#"><i class="fa fa-circle-o"></i> Modificar Relación </a></li>
-				            <li><a href="#"><i class="fa fa-circle-o"></i> Gestionar Tupla </a></li>
-		              	</ul>
-		            </li>
-		            <li class="treeview">
-			            <a href="#">
-			               	<i class="fa fa-pencil-square-o"></i>
-			               	<span>Gestionar Ejercicios</span>
-			               	<i class="fa fa-angle-left pull-right"></i>
-			            </a>
-		              	<ul class="treeview-menu">
-		                	<li><a href="#"><i class="fa fa-circle-o"></i> Gestionar Ejercicios </a></li>
-		                	<li><a href="#"><i class="fa fa-circle-o"></i> Responder Ejercicios </a></li>
-		              	</ul>
-		            </li>
-		            <li>
-		              	<a href="#">
-		                	<i class="fa fa-terminal"></i> <span>Hacer Consulta</span>
-		              	</a>
-		            </li>
-	            	<li>
-	              		<a href="#">
-	                		<i class="fa fa-bar-chart-o"></i> <span>Ver Estadísticas</span>
-	              		</a>
-	            	</li>        
-	           	</ul>
-	   		</section>
-	        <!-- /.sidebar -->
-		</aside>
-
-    </h:form>
+<h:body>
+	<h:form>
+    	<p:menubar styleClass="divs" style="background:#c9c9c9!important">
+    		<p:submenu label="Gestionar Usuarios" styleClass="formato">
+    			<p:menuitem value="Crear Cuenta" styleClass="formato" url="crearCuenta.xhtml" ajax="false"/>
+    			<p:menuitem value="Eliminar Cuenta" styleClass="formato" url="eliminarCuenta.xhtml" ajax="false"/>
+    			<p:menuitem value="Modificar Cuenta" styleClass="formato" url="modificarCuenta.xhtml" ajax="false"/>
+    		</p:submenu>
+    		<p:submenu label="Gestionar BD" styleClass="formato">
+    			<p:menuitem value="Crear BD" styleClass="formato" url="crearBD.xhtml" ajax="false"/>
+    			<p:menuitem value="Eliminar BD" styleClass="formato" url="eliminarBD.xhtml" ajax="false"/>
+    			<p:menuitem value="Modificar BD" styleClass="formato" url="modificarBD.xhtml" ajax="false"/>
+    			<p:separator/>    			
+    			<p:menuitem value="Cargar BD" styleClass="formato" url="cargarBD.xhtml" ajax="false" />
+    		</p:submenu>
+    		<p:submenu label="Gestionar Relaciones" styleClass="formato">
+    			<p:menuitem value="Agregar Relación" disabled="#{bd == null}" styleClass="formato" action="#{menuView.agregarRelacion}" ajax="false"/>
+    			<p:menuitem value="Eliminar Relación" disabled="#{bd == null}" styleClass="formato" action="#{menuView.eliminarRelacion}" ajax="false"/>
+    			<p:menuitem value="Modificar Relación" disabled="#{bd == null}" styleClass="formato"  action="#{menuView.modificarRelacion}" ajax="false"/>
+    			<p:menuitem value="Gestionar Tuplas" disabled="#{bd == null}" styleClass="formato" action="#{menuView.verRelacion}" ajax="false"/>
+    		</p:submenu>
+    		<p:submenu label="Gestionar Ejercicios" styleClass="formato">
+    			<p:menuitem value="Gestionar Ejercicios" disabled="#{bd == null}" styleClass="formato" action="#{menuView.gestionarEjercicio}" ajax="false"/>
+    			<p:separator/>
+    			<p:menuitem value="Responder Ejercicios" disabled="#{bd == null}" styleClass="formato" action="#{menuView.responderEjercicio}" ajax="false"/>
+    		</p:submenu>
+    		<p:menuitem value="Hacer Consulta" disabled="#{bd == null}" styleClass="formato" action="#{menuView.hacerConsulta}" ajax="false"/>
+    		<p:menuitem value="Ver Estadísticas" styleClass="formato" action="verEstadisticas" ajax="false"/>
+    		<p:menuitem value="Modificar Cuenta" styleClass="formato" action="modificarCuentaProfesor" ajax="false"/>
+    		
+    		<f:facet name="options">
+            	<p:commandButton value="Desconectar" icon="ui-icon-extlink" action="#{menuView.logout}" />
+        	</f:facet>
+    		
+    	</p:menubar>
+	</h:form>
 </h:body>
 
 </html>

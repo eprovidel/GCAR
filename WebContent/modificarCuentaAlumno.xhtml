@@ -9,7 +9,7 @@
 <h:body>
 
 	<f:metadata>
-		<f:event listener="#{loginBean.isAlumno}" type="preRenderView" />
+		<f:event listener="#{newLoginBean.isAlumno}" type="preRenderView" />
 	</f:metadata>
 	
 	<ui:composition template="/templates/homeTemplate.xhtml">
@@ -132,7 +132,7 @@
 			            
 			                <h:panelGrid columns="3" columnClasses="label, value">
 			                    <h:outputText value="Año de Ingreso *" />
-			                    <p:inputText id="año" value="#{gestionarCuentasBean.userBean.año}" label="año"
+			                    <p:inputText id="año" value="#{gestionarCuentasBean.userBean.anyo}" label="año"
 			                    	required="true" requiredMessage="Debe ingresar el año de ingreso a la Universidad"
 			                    	validatorMessage="Debe ingresar sólo dígitos">
 			                    	<f:validateRegex pattern="[0-9]*$" />
@@ -201,7 +201,7 @@
 			                    <h:panelGrid columns="2" columnClasses="label, value" style="width: 200px;">
 			                    	                    		                        
 			                        <h:outputText value="Año Ingreso: " styleClass="formato"/>
-			                        <h:outputText value="#{gestionarCuentasBean.userBean.año}" styleClass="outputLabel"/>
+			                        <h:outputText value="#{gestionarCuentasBean.userBean.anyo}" styleClass="outputLabel"/>
 			 
 			                        <h:outputText value="Vez Cursando: " styleClass="formato"/>
 			                        <h:outputText value="#{gestionarCuentasBean.userBean.vezCursando}" styleClass="outputLabel"/>

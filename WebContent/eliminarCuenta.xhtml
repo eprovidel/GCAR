@@ -9,7 +9,7 @@
 <h:body>
 
 	<f:metadata>
-		<f:event listener="#{loginBean.isAdmin}" type="preRenderView" />
+		<f:event listener="#{newLoginBean.isAdmin}" type="preRenderView" />
 	</f:metadata>
 
 	<ui:composition template="/templates/homeTemplate.xhtml">
@@ -82,8 +82,8 @@
 					        <p:column headerText="Mail" filterBy="#{user.mail}" filterStyle="display:none" filterMatchMode="contains">
 				            <h:outputText value="#{user.mail}" />
 				        </p:column>
-				        <p:column headerText="Año de Ingreso" filterBy="#{user.año}" filterStyle="display:none">
-				            <h:outputText value="#{user.año}" />
+				        <p:column headerText="Año de Ingreso" filterBy="#{user.anyo}" filterStyle="display:none">
+				            <h:outputText value="#{user.anyo}" />
 				        </p:column>
 				    </p:dataTable>
 				</p:fieldset>
@@ -119,7 +119,7 @@
 			                <h:outputText value="#{gestionarCuentasBean.selectedUser.mail}" />
 			                
 			                <h:outputText value="Año de Ingreso: " />
-			                <h:outputText value="#{gestionarCuentasBean.selectedUser.año}" />
+			                <h:outputText value="#{gestionarCuentasBean.selectedUser.anyo}" />
 			                
 			                <h:outputText value="Vez Cursando: " />
 			                <h:outputText value="#{gestionarCuentasBean.selectedUser.vezCursando}" />
