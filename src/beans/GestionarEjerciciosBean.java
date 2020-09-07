@@ -118,7 +118,7 @@ public class GestionarEjerciciosBean implements Serializable {
 //	
 //	    	for(Ejercicio e : ejercicios){
 //	    		if(e.getPregunta () == null || e.getRespuesta() == null || e.getRespuesta() == null ){
-//	    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible agregar ejercicios con preguntas o respuestas vacías. Revisar ejercicio " + (e.getId()+1),"");
+//	    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible agregar ejercicios con preguntas o respuestas vacias. Revisar ejercicio " + (e.getId()+1),"");
 //		       		FacesContext.getCurrentInstance().addMessage(null, msg);
 //		       		band = true;
 //		       		break;
@@ -127,7 +127,7 @@ public class GestionarEjerciciosBean implements Serializable {
 //	        		Matcher matRespuesta = pat.matcher(e.getRespuesta());
 //	        		Matcher matConsultas = pat.matcher(e.getConsultas());
 //		    		if(matPregunta.matches() || matRespuesta.matches() || matConsultas.matches()){
-//						FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible agregar ejercicios con preguntas o respuestas vacías. Revisar ejercicio " + (e.getId()+1),"");
+//						FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible agregar ejercicios con preguntas o respuestas vacias. Revisar ejercicio " + (e.getId()+1),"");
 //			       		FacesContext.getCurrentInstance().addMessage(null, msg);
 //			       		band = true;
 //			       		break;
@@ -247,7 +247,7 @@ public class GestionarEjerciciosBean implements Serializable {
 
     	for(Ejercicio e : ejercicios){
     		if(e.getPregunta () == null || e.getRespuesta() == null || e.getRespuesta() == null || e.getQueryList() == null ){
-    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacías. Revisar ejercicio " + (e.getId()+1),"");
+    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacias. Revisar ejercicio " + (e.getId()+1),"");
 	       		FacesContext.getCurrentInstance().addMessage(null, msg);
 	       		band = true;
 	       		break;
@@ -257,7 +257,7 @@ public class GestionarEjerciciosBean implements Serializable {
         		Matcher matConsultas = pat.matcher(e.getConsultas());
         		Matcher matQueryList = pat.matcher(e.getQueryList());
 	    		if(matPregunta.matches() || matRespuesta.matches() || matConsultas.matches() || matQueryList.matches()){
-					FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacías. Revisar ejercicio " + (e.getId()+1),"");
+					FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacï¿½as. Revisar ejercicio " + (e.getId()+1),"");
 		       		FacesContext.getCurrentInstance().addMessage(null, msg);
 		       		band = true;
 		       		break;
@@ -381,7 +381,7 @@ public class GestionarEjerciciosBean implements Serializable {
 	
 	    	for(Ejercicio e : ejercicios){
 	    		if(e.getPregunta () == null || e.getRespuesta() == null || e.getRespuesta() == null || e.getQueryList() == null ){
-	    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacías. Revisar ejercicio " + (e.getId()+1),"");
+	    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacias. Revisar ejercicio " + (e.getId()+1),"");
 		       		FacesContext.getCurrentInstance().addMessage(null, msg);
 		       		band = true;
 		       		break;
@@ -391,7 +391,7 @@ public class GestionarEjerciciosBean implements Serializable {
 	        		Matcher matConsultas = pat.matcher(e.getConsultas());
 	        		Matcher matQueryList = pat.matcher(e.getQueryList());
 		    		if(matPregunta.matches() || matRespuesta.matches() || matConsultas.matches() || matQueryList.matches()){
-//						FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacías. Revisar ejercicio " + (e.getId()+1),"");
+//						FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Imposible guardar ejercicios con preguntas o respuestas vacias. Revisar ejercicio " + (e.getId()+1),"");
 //			       		FacesContext.getCurrentInstance().addMessage(null, msg);
 			       		band = true;
 			       		break;
@@ -727,7 +727,7 @@ public class GestionarEjerciciosBean implements Serializable {
 						resultado.setNombre("ERROR: no puedes usar etiquetas del lenguaje como nombre");
 						band = true;
 					}else if(esquema.isRelacion(test[0])){
-						resultado.setNombre("ERROR: no puedes reasignar una relación de la lista de Relaciones");
+						resultado.setNombre("ERROR: no puedes reasignar una relaciï¿½n de la lista de Relaciones");
 						band = true;
 					}
 					
@@ -1052,7 +1052,7 @@ public class GestionarEjerciciosBean implements Serializable {
 						aux1[1] = aux1[1].replaceAll(" ","");
 						
 						if(aux1[0].equals("")){
-							// Sólo renombra los atributos
+							// Sï¿½lo renombra los atributos
 							
 							aux1[2] = aux1[2].replaceAll("\\)","");
 							aux1[2] = aux1[2].replaceAll(" ","");
@@ -1389,7 +1389,7 @@ public class GestionarEjerciciosBean implements Serializable {
 						aux1[1] = aux1[1].replaceAll(" ","");
 						
 						if(aux1[0].equals("")){
-							// Sólo renombra los atributos
+							// Sï¿½lo renombra los atributos
 							
 							aux1[2] = aux1[2].replaceAll("\\)","");
 							aux1[2] = aux1[2].replaceAll(" ","");

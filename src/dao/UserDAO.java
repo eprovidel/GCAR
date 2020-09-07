@@ -60,7 +60,7 @@ public class UserDAO {
                     
                     if(rs1.next()){
                     	System.out.println("holi");
-                    	userBean.setAño(rs1.getString(2));
+                    	userBean.setAnyo(rs1.getString(2));
                     	System.out.println("Usuario " + userBean.getRut() + " encontrado en la tabla Profesores");
                     	return userBean;
                     }else{
@@ -75,7 +75,7 @@ public class UserDAO {
                     ResultSet rs1 = ps.executeQuery();
                     
                     if(rs1.next()){
-                    	userBean.setAño(rs1.getString(2));
+                    	userBean.setAnyo(rs1.getString(2));
                     	userBean.setVezCursando(rs1.getString(3));
                     	userBean.setEdad(rs1.getString(4));
                     	System.out.println("Usuario " + userBean.getRut() + " encontrado en la tabla Profesores");
@@ -127,7 +127,7 @@ public static UserBean registrarAlumno(UserBean user){
             query = "INSERT INTO alumnos VALUES (?,?,?,?)";
             ps = con.prepareStatement(query);
             ps.setString(1,user.getRut());
-            ps.setString(2,user.getAño());
+            ps.setString(2,user.getAnyo());
             ps.setString(3,user.getVezCursando());
             ps.setString(4,user.getEdad());
             ps.execute();
@@ -139,7 +139,7 @@ public static UserBean registrarAlumno(UserBean user){
         	return user;
         } catch (Exception ex) {
             System.out.println("Error en crearUsuario() -->" + ex.getMessage());
-            if(ex.getMessage().contains("llave duplicada viola restricción de unicidad")){
+            if(ex.getMessage().contains("llave duplicada viola restricciï¿½n de unicidad")){
             	UserBean userBean = new UserBean();
             	userBean.setNombre1("duplicado");
             	return userBean;
@@ -174,7 +174,7 @@ public static UserBean registrarAlumno(UserBean user){
             query = "INSERT INTO alumnos VALUES (?,?,?,?)";
             ps = con.prepareStatement(query);
             ps.setString(1,user.getRut());
-            ps.setString(2,user.getAño());
+            ps.setString(2,user.getAnyo());
             ps.setString(3,user.getVezCursando());
             ps.setString(4,user.getEdad());
             ps.execute();
@@ -187,7 +187,7 @@ public static UserBean registrarAlumno(UserBean user){
             
         } catch (Exception ex) {
         	System.out.println("Error en crearUsuario() -->" + ex.getMessage());
-            if(ex.getMessage().contains("llave duplicada viola restricción de unicidad")){
+            if(ex.getMessage().contains("llave duplicada viola restricciï¿½n de unicidad")){
             	User userBean = new User();
             	userBean.setNombre1("duplicado");
             	return userBean;
@@ -220,7 +220,7 @@ public static UserBean registrarAlumno(UserBean user){
             	user.setMaterno(rs.getString(6));
             	user.setMail(rs.getString(7));
             	user.setTipo(rs.getInt(8));
-            	user.setAño(rs.getString(9));
+            	user.setAnyo(rs.getString(9));
             	user.setVezCursando(rs.getString(10));
             	user.setEdad(rs.getString(11));
             	users.add(user);
@@ -288,7 +288,7 @@ public static UserBean registrarAlumno(UserBean user){
             	System.out.println("Query: " + query);
             	
             	ps = con.prepareStatement(query);
- 	            ps.setString(1,user.getAño());
+ 	            ps.setString(1,user.getAnyo());
  	            ps.setString(2,user.getRut());
  	            ps.execute();
             	
@@ -303,7 +303,7 @@ public static UserBean registrarAlumno(UserBean user){
 				
 				con = Database.getConnection();
 	            ps = con.prepareStatement(query);
-	            ps.setString(1,user.getAño());
+	            ps.setString(1,user.getAnyo());
 	            ps.setString(2,user.getVezCursando());
 	            ps.setString(3,user.getEdad());
 	            ps.setString(4,user.getRut());

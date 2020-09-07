@@ -10,7 +10,7 @@ public class User implements Serializable {
 	 private String paterno;
 	 private String materno;
 	 private String mail;
-	 private String año;
+	 private String anyo;
 	 private String vezCursando;
 	 private String edad;
 	 private int tipo;
@@ -83,12 +83,12 @@ public class User implements Serializable {
 		this.tipo = tipo;
 	}
 
-	public String getAño() {
-		return año;
+	public String getAnyo() {
+		return anyo;
 	}
 
-	public void setAño(String año) {
-		this.año = año;
+	public void setAnyo(String anyo) {
+		this.anyo = anyo;
 	}
 
 	public String getVezCursando() {

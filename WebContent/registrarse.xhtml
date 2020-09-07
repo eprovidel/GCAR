@@ -145,7 +145,7 @@
 			            
 			                <h:panelGrid columns="3" columnClasses="label, value">
 			                    <h:outputText value="Año de Ingreso *" />
-			                    <p:inputText id="año" value="#{userBean.año}" label="año"
+			                    <p:inputText id="año" value="#{userBean.anyo}" label="año"
 			                    	required="true" requiredMessage="Debe ingresar el año de ingreso a la Universidad"
 			                    	validatorMessage="Debe ingresar sólo dígitos">
 			                    	<f:validateRegex pattern="[0-9]*$" />
@@ -214,7 +214,7 @@
 			                    <h:panelGrid columns="2" columnClasses="label, value" style="width: 300px;">
 		                        
 			                        <h:outputText value="Año Ingreso " styleClass="formato"/>
-			                        <h:outputText value="#{userBean.año}" styleClass="outputLabel"/>
+			                        <h:outputText value="#{userBean.anyo}" styleClass="outputLabel"/>
 			 
 			                        <h:outputText value="Vez Cursando " styleClass="formato"/>
 			                        <h:outputText value="#{userBean.vezCursando}" styleClass="outputLabel"/>

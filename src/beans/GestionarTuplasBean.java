@@ -158,7 +158,7 @@ public class GestionarTuplasBean implements Serializable {
 			
 			List<AtributoBean> atributos = selectedRelacion.getAtributos();
 			for(AtributoBean a : atributos){
-				if(a.getEsPrimario().equals("Sí")){
+				if(a.getEsPrimario().equals("SÃ­")){
 					if(!a.getNombre().contains("(PK)")){
 						a.setNombre(a.getNombre().toUpperCase() + " (PK)");
 					}
@@ -174,7 +174,7 @@ public class GestionarTuplasBean implements Serializable {
 			this.selectedRelacion = selectedRelacion;
 		}else{
 			FacesContext  context = FacesContext.getCurrentInstance();
-			context.addMessage(null,new FacesMessage(FacesMessage.SEVERITY_ERROR,"Debe seleccionar una Relación",""));
+			context.addMessage(null,new FacesMessage(FacesMessage.SEVERITY_ERROR,"Debe seleccionar una Relaciï¿½n",""));
 			context.getExternalContext().getFlash().setKeepMessages(true);
 		}
 	}
@@ -268,10 +268,10 @@ public class GestionarTuplasBean implements Serializable {
 				
 				Util.reloadBd();
 				
-				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se han guardado los cambios de la Relación " + nombreRelacion, "");
+				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se han guardado los cambios de la RelaciÃ³n " + nombreRelacion, "");
 	            FacesContext.getCurrentInstance().addMessage(null, msg);
 			}else if(res.equals("fatal")){
-				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_FATAL,"Error al guardar los cambios en la Relacion " + nombreRelacion + ". Puede que se hayan perdidos algunos datos de la Relación", "");
+				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_FATAL,"Error al guardar los cambios en la RelaciÃ³n " + nombreRelacion + ". Puede que se hayan perdidos algunos datos de la RelaciÃ³n", "");
 	            FacesContext.getCurrentInstance().addMessage(null, msg);
 			}else{
 				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al guardar los cambios en la Relacion " + nombreRelacion + ". " + res, "");
@@ -287,7 +287,7 @@ public class GestionarTuplasBean implements Serializable {
 	
 	public String cancelar(){
 		System.out.println("Cancelar");
-		FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se han cancelado los cambios en la Relación " + nombreRelacion, "");
+		FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se han cancelado los cambios en la RelaciÃ³n " + nombreRelacion, "");
         FacesContext.getCurrentInstance().addMessage(null, msg);
         return "verRelacion";
 	}  
@@ -304,7 +304,7 @@ public class GestionarTuplasBean implements Serializable {
 	}
 	
 	public void modificarTupla(){
-		System.out.println("Aceptar Modificación");
+		System.out.println("Aceptar ModificaciÃ³n");
 		selectedRelacion.getTuplasBean().set(selectedRelacion.getTuplasBean().indexOf(oldTupla),selectedTupla);
 		selectedTupla = null;
 	}

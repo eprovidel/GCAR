@@ -175,7 +175,7 @@ public class EsquemaDAO {
 			ps = con.prepareStatement(query);
 			ps.execute();
 			
-			System.out.println("Creación de Esquema de carga exitosa");
+			System.out.println("CreaciÃ³n de Esquema de carga exitosa");
 			return true;
 						
 		} catch (Exception ex) {

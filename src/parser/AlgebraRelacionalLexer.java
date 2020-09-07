@@ -68,15 +68,15 @@ public class AlgebraRelacionalLexer extends Lexer {
 	public AlgebraRelacionalLexer(CharStream input, RecognizerSharedState state) {
 		super(input,state);
 	}
-	@Override public String getGrammarFileName() { return "D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g"; }
+	@Override public String getGrammarFileName() { return "D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g"; }
 
 	// $ANTLR start "T__7"
 	public final void mT__7() throws RecognitionException {
 		try {
 			int _type = T__7;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:2:6: ( '!=' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:2:8: '!='
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:2:6: ( '!=' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:2:8: '!='
 			{
 			match("!="); 
 
@@ -96,8 +96,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__8;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:6: ( '(' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:8: '('
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:6: ( '(' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:8: '('
 			{
 			match('('); 
 			}
@@ -116,8 +116,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__9;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:4:6: ( ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:4:8: ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:4:6: ( ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:4:8: ')'
 			{
 			match(')'); 
 			}
@@ -136,8 +136,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__10;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:7: ( ',' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:9: ','
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:7: ( ',' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:9: ','
 			{
 			match(','); 
 			}
@@ -156,8 +156,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__11;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:6:7: ( '-' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:6:9: '-'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:6:7: ( '-' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:6:9: '-'
 			{
 			match('-'); 
 			}
@@ -176,8 +176,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__12;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:7: ( '.' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:9: '.'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:7: ( '.' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:9: '.'
 			{
 			match('.'); 
 			}
@@ -196,8 +196,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__13;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:8:7: ( ':=' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:8:9: ':='
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:8:7: ( ':=' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:8:9: ':='
 			{
 			match(":="); 
 
@@ -217,8 +217,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__14;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:7: ( '<' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:9: '<'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:7: ( '<' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:9: '<'
 			{
 			match('<'); 
 			}
@@ -237,8 +237,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__15;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:10:7: ( '<=' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:10:9: '<='
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:10:7: ( '<=' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:10:9: '<='
 			{
 			match("<="); 
 
@@ -258,8 +258,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__16;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:11:7: ( '=' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:11:9: '='
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:11:7: ( '=' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:11:9: '='
 			{
 			match('='); 
 			}
@@ -278,8 +278,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__17;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:12:7: ( '>' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:12:9: '>'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:12:7: ( '>' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:12:9: '>'
 			{
 			match('>'); 
 			}
@@ -298,8 +298,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__18;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:13:7: ( '>= ' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:13:9: '>= '
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:13:7: ( '>= ' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:13:9: '>= '
 			{
 			match(">= "); 
 
@@ -319,8 +319,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__19;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:14:7: ( 'AND' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:14:9: 'AND'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:14:7: ( 'AND' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:14:9: 'AND'
 			{
 			match("AND"); 
 
@@ -340,8 +340,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__20;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:15:7: ( 'CRUZ' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:15:9: 'CRUZ'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:15:7: ( 'CRUZ' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:15:9: 'CRUZ'
 			{
 			match("CRUZ"); 
 
@@ -361,8 +361,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__21;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:16:7: ( 'DIFERENCIA' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:16:9: 'DIFERENCIA'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:16:7: ( 'DIFERENCIA' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:16:9: 'DIFERENCIA'
 			{
 			match("DIFERENCIA"); 
 
@@ -382,8 +382,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__22;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:17:7: ( 'DIVISION' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:17:9: 'DIVISION'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:17:7: ( 'DIVISION' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:17:9: 'DIVISION'
 			{
 			match("DIVISION"); 
 
@@ -403,8 +403,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__23;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:18:7: ( 'INTER' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:18:9: 'INTER'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:18:7: ( 'INTER' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:18:9: 'INTER'
 			{
 			match("INTER"); 
 
@@ -424,8 +424,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__24;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:19:7: ( 'OR' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:19:9: 'OR'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:19:7: ( 'OR' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:19:9: 'OR'
 			{
 			match("OR"); 
 
@@ -445,8 +445,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__25;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:7: ( 'PROYECTAR' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:9: 'PROYECTAR'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:7: ( 'PROYECTAR' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:9: 'PROYECTAR'
 			{
 			match("PROYECTAR"); 
 
@@ -466,8 +466,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__26;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:21:7: ( 'RENOMBRAR' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:21:9: 'RENOMBRAR'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:21:7: ( 'RENOMBRAR' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:21:9: 'RENOMBRAR'
 			{
 			match("RENOMBRAR"); 
 
@@ -487,8 +487,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__27;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:7: ( 'REUNION' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:9: 'REUNION'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:7: ( 'REUNION' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:9: 'REUNION'
 			{
 			match("REUNION"); 
 
@@ -508,8 +508,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__28;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:23:7: ( 'REUNION_EXT_DER' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:23:9: 'REUNION_EXT_DER'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:23:7: ( 'REUNION_EXT_DER' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:23:9: 'REUNION_EXT_DER'
 			{
 			match("REUNION_EXT_DER"); 
 
@@ -529,8 +529,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__29;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:7: ( 'REUNION_EXT_FULL' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:9: 'REUNION_EXT_FULL'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:7: ( 'REUNION_EXT_FULL' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:9: 'REUNION_EXT_FULL'
 			{
 			match("REUNION_EXT_FULL"); 
 
@@ -550,8 +550,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__30;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:25:7: ( 'REUNION_EXT_IZQ' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:25:9: 'REUNION_EXT_IZQ'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:25:7: ( 'REUNION_EXT_IZQ' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:25:9: 'REUNION_EXT_IZQ'
 			{
 			match("REUNION_EXT_IZQ"); 
 
@@ -571,8 +571,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__31;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:7: ( 'REUNION_NATURAL' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:9: 'REUNION_NATURAL'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:7: ( 'REUNION_NATURAL' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:9: 'REUNION_NATURAL'
 			{
 			match("REUNION_NATURAL"); 
 
@@ -592,8 +592,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__32;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:27:7: ( 'SELECCIONAR' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:27:9: 'SELECCIONAR'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:27:7: ( 'SELECCIONAR' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:27:9: 'SELECCIONAR'
 			{
 			match("SELECCIONAR"); 
 
@@ -613,8 +613,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__33;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:7: ( 'UNION' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:9: 'UNION'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:7: ( 'UNION' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:9: 'UNION'
 			{
 			match("UNION"); 
 
@@ -634,8 +634,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__34;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:29:7: ( '\\u0027' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:29:9: '\\u0027'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:29:7: ( '\\u0027' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:29:9: '\\u0027'
 			{
 			match('\''); 
 			}
@@ -654,8 +654,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__35;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:7: ( 'and' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:9: 'and'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:7: ( 'and' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:9: 'and'
 			{
 			match("and"); 
 
@@ -675,8 +675,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__36;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:31:7: ( 'cruz' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:31:9: 'cruz'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:31:7: ( 'cruz' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:31:9: 'cruz'
 			{
 			match("cruz"); 
 
@@ -696,8 +696,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__37;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:7: ( 'diferencia' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:9: 'diferencia'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:7: ( 'diferencia' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:9: 'diferencia'
 			{
 			match("diferencia"); 
 
@@ -717,8 +717,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__38;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:33:7: ( 'division' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:33:9: 'division'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:33:7: ( 'division' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:33:9: 'division'
 			{
 			match("division"); 
 
@@ -738,8 +738,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__39;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:7: ( 'inter' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:9: 'inter'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:7: ( 'inter' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:9: 'inter'
 			{
 			match("inter"); 
 
@@ -759,8 +759,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__40;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:35:7: ( 'or' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:35:9: 'or'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:35:7: ( 'or' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:35:9: 'or'
 			{
 			match("or"); 
 
@@ -780,8 +780,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__41;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:7: ( 'proyectar' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:9: 'proyectar'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:7: ( 'proyectar' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:9: 'proyectar'
 			{
 			match("proyectar"); 
 
@@ -801,8 +801,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__42;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:37:7: ( 'renombrar' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:37:9: 'renombrar'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:37:7: ( 'renombrar' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:37:9: 'renombrar'
 			{
 			match("renombrar"); 
 
@@ -822,8 +822,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__43;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:7: ( 'reunion' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:9: 'reunion'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:7: ( 'reunion' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:9: 'reunion'
 			{
 			match("reunion"); 
 
@@ -843,8 +843,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__44;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:39:7: ( 'reunion_ext_der' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:39:9: 'reunion_ext_der'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:39:7: ( 'reunion_ext_der' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:39:9: 'reunion_ext_der'
 			{
 			match("reunion_ext_der"); 
 
@@ -864,8 +864,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__45;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:7: ( 'reunion_ext_full' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:9: 'reunion_ext_full'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:7: ( 'reunion_ext_full' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:9: 'reunion_ext_full'
 			{
 			match("reunion_ext_full"); 
 
@@ -885,8 +885,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__46;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:41:7: ( 'reunion_ext_izq' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:41:9: 'reunion_ext_izq'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:41:7: ( 'reunion_ext_izq' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:41:9: 'reunion_ext_izq'
 			{
 			match("reunion_ext_izq"); 
 
@@ -906,8 +906,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__47;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:7: ( 'reunion_natural' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:9: 'reunion_natural'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:7: ( 'reunion_natural' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:9: 'reunion_natural'
 			{
 			match("reunion_natural"); 
 
@@ -927,8 +927,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__48;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:43:7: ( 'seleccionar' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:43:9: 'seleccionar'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:43:7: ( 'seleccionar' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:43:9: 'seleccionar'
 			{
 			match("seleccionar"); 
 
@@ -948,8 +948,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = T__49;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:7: ( 'union' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:9: 'union'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:7: ( 'union' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:9: 'union'
 			{
 			match("union"); 
 
@@ -969,10 +969,10 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = NUM;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:58:6: ( ( '0' .. '9' )+ )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:58:8: ( '0' .. '9' )+
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:58:6: ( ( '0' .. '9' )+ )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:58:8: ( '0' .. '9' )+
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:58:8: ( '0' .. '9' )+
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:58:8: ( '0' .. '9' )+
 			int cnt1=0;
 			loop1:
 			while (true) {
@@ -984,7 +984,7 @@ public class AlgebraRelacionalLexer extends Lexer {
 
 				switch (alt1) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:
 					{
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
 						input.consume();
@@ -1021,8 +1021,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = CAD;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:59:6: ( ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) ) ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) | ( '0' .. '9' ) | '_' )+ )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:59:8: ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) ) ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) | ( '0' .. '9' ) | '_' )+
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:59:6: ( ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) ) ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) | ( '0' .. '9' ) | '_' )+ )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:59:8: ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) ) ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) | ( '0' .. '9' ) | '_' )+
 			{
 			if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
 				input.consume();
@@ -1032,7 +1032,7 @@ public class AlgebraRelacionalLexer extends Lexer {
 				recover(mse);
 				throw mse;
 			}
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:59:31: ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) | ( '0' .. '9' ) | '_' )+
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:59:31: ( ( 'a' .. 'z' ) | ( 'A' .. 'Z' ) | ( '0' .. '9' ) | '_' )+
 			int cnt2=0;
 			loop2:
 			while (true) {
@@ -1044,7 +1044,7 @@ public class AlgebraRelacionalLexer extends Lexer {
 
 				switch (alt2) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:
 					{
 					if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
 						input.consume();
@@ -1081,8 +1081,8 @@ public class AlgebraRelacionalLexer extends Lexer {
 		try {
 			int _type = WS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:60:6: ( ( ' ' | '\\t' | '\\r' | '\\n' ) )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:60:11: ( ' ' | '\\t' | '\\r' | '\\n' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:60:6: ( ( ' ' | '\\t' | '\\r' | '\\n' ) )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:60:11: ( ' ' | '\\t' | '\\r' | '\\n' )
 			{
 			if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||input.LA(1)=='\r'||input.LA(1)==' ' ) {
 				input.consume();
@@ -1106,327 +1106,327 @@ public class AlgebraRelacionalLexer extends Lexer {
 
 	@Override
 	public void mTokens() throws RecognitionException {
-		// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:8: ( T__7 | T__8 | T__9 | T__10 | T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | NUM | CAD | WS )
+		// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:8: ( T__7 | T__8 | T__9 | T__10 | T__11 | T__12 | T__13 | T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | NUM | CAD | WS )
 		int alt3=46;
 		alt3 = dfa3.predict(input);
 		switch (alt3) {
 			case 1 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:10: T__7
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:10: T__7
 				{
 				mT__7(); 
 
 				}
 				break;
 			case 2 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:15: T__8
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:15: T__8
 				{
 				mT__8(); 
 
 				}
 				break;
 			case 3 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:20: T__9
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:20: T__9
 				{
 				mT__9(); 
 
 				}
 				break;
 			case 4 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:25: T__10
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:25: T__10
 				{
 				mT__10(); 
 
 				}
 				break;
 			case 5 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:31: T__11
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:31: T__11
 				{
 				mT__11(); 
 
 				}
 				break;
 			case 6 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:37: T__12
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:37: T__12
 				{
 				mT__12(); 
 
 				}
 				break;
 			case 7 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:43: T__13
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:43: T__13
 				{
 				mT__13(); 
 
 				}
 				break;
 			case 8 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:49: T__14
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:49: T__14
 				{
 				mT__14(); 
 
 				}
 				break;
 			case 9 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:55: T__15
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:55: T__15
 				{
 				mT__15(); 
 
 				}
 				break;
 			case 10 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:61: T__16
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:61: T__16
 				{
 				mT__16(); 
 
 				}
 				break;
 			case 11 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:67: T__17
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:67: T__17
 				{
 				mT__17(); 
 
 				}
 				break;
 			case 12 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:73: T__18
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:73: T__18
 				{
 				mT__18(); 
 
 				}
 				break;
 			case 13 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:79: T__19
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:79: T__19
 				{
 				mT__19(); 
 
 				}
 				break;
 			case 14 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:85: T__20
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:85: T__20
 				{
 				mT__20(); 
 
 				}
 				break;
 			case 15 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:91: T__21
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:91: T__21
 				{
 				mT__21(); 
 
 				}
 				break;
 			case 16 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:97: T__22
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:97: T__22
 				{
 				mT__22(); 
 
 				}
 				break;
 			case 17 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:103: T__23
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:103: T__23
 				{
 				mT__23(); 
 
 				}
 				break;
 			case 18 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:109: T__24
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:109: T__24
 				{
 				mT__24(); 
 
 				}
 				break;
 			case 19 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:115: T__25
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:115: T__25
 				{
 				mT__25(); 
 
 				}
 				break;
 			case 20 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:121: T__26
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:121: T__26
 				{
 				mT__26(); 
 
 				}
 				break;
 			case 21 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:127: T__27
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:127: T__27
 				{
 				mT__27(); 
 
 				}
 				break;
 			case 22 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:133: T__28
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:133: T__28
 				{
 				mT__28(); 
 
 				}
 				break;
 			case 23 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:139: T__29
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:139: T__29
 				{
 				mT__29(); 
 
 				}
 				break;
 			case 24 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:145: T__30
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:145: T__30
 				{
 				mT__30(); 
 
 				}
 				break;
 			case 25 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:151: T__31
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:151: T__31
 				{
 				mT__31(); 
 
 				}
 				break;
 			case 26 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:157: T__32
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:157: T__32
 				{
 				mT__32(); 
 
 				}
 				break;
 			case 27 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:163: T__33
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:163: T__33
 				{
 				mT__33(); 
 
 				}
 				break;
 			case 28 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:169: T__34
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:169: T__34
 				{
 				mT__34(); 
 
 				}
 				break;
 			case 29 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:175: T__35
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:175: T__35
 				{
 				mT__35(); 
 
 				}
 				break;
 			case 30 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:181: T__36
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:181: T__36
 				{
 				mT__36(); 
 
 				}
 				break;
 			case 31 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:187: T__37
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:187: T__37
 				{
 				mT__37(); 
 
 				}
 				break;
 			case 32 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:193: T__38
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:193: T__38
 				{
 				mT__38(); 
 
 				}
 				break;
 			case 33 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:199: T__39
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:199: T__39
 				{
 				mT__39(); 
 
 				}
 				break;
 			case 34 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:205: T__40
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:205: T__40
 				{
 				mT__40(); 
 
 				}
 				break;
 			case 35 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:211: T__41
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:211: T__41
 				{
 				mT__41(); 
 
 				}
 				break;
 			case 36 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:217: T__42
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:217: T__42
 				{
 				mT__42(); 
 
 				}
 				break;
 			case 37 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:223: T__43
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:223: T__43
 				{
 				mT__43(); 
 
 				}
 				break;
 			case 38 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:229: T__44
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:229: T__44
 				{
 				mT__44(); 
 
 				}
 				break;
 			case 39 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:235: T__45
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:235: T__45
 				{
 				mT__45(); 
 
 				}
 				break;
 			case 40 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:241: T__46
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:241: T__46
 				{
 				mT__46(); 
 
 				}
 				break;
 			case 41 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:247: T__47
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:247: T__47
 				{
 				mT__47(); 
 
 				}
 				break;
 			case 42 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:253: T__48
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:253: T__48
 				{
 				mT__48(); 
 
 				}
 				break;
 			case 43 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:259: T__49
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:259: T__49
 				{
 				mT__49(); 
 
 				}
 				break;
 			case 44 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:265: NUM
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:265: NUM
 				{
 				mNUM(); 
 
 				}
 				break;
 			case 45 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:269: CAD
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:269: CAD
 				{
 				mCAD(); 
 
 				}
 				break;
 			case 46 :
-				// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:273: WS
+				// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:1:273: WS
 				{
 				mWS(); 
 

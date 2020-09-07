@@ -108,7 +108,7 @@ public class GestionarCuentasBean implements Serializable {
     	System.out.println(selectedUser.getNombre1());
     	
     	if(selectedUser.getNombre1() != null || selectedUser.getPaterno() != null || selectedUser.getMaterno() != null ||
-    			selectedUser.getAño() != null || selectedUser.getVezCursando() != null){
+    			selectedUser.getAnyo() != null || selectedUser.getVezCursando() != null){
     	
 	    	if(UserDAO.modificarUsuario(selectedUser)){
 	    		search = "";  	
@@ -129,7 +129,7 @@ public class GestionarCuentasBean implements Serializable {
 	    	
     	}else{
     		FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Los campos: Primer Nombre, Apellido Paterno, "
-    				+ "Apellido Materno, Año de Ingreso o Vez Cursando no deben ser vacíos","");
+    				+ "Apellido Materno, Aï¿½o de Ingreso o Vez Cursando no deben ser vacï¿½os","");
        		FacesContext.getCurrentInstance().addMessage(null, msg);
        		
        		selectedUser = null;
@@ -197,7 +197,7 @@ public String save() {
 		user.setMaterno(userBean.getMaterno());
 		user.setMail(userBean.getMail());
 		user.setTipo(userBean.getTipo());
-		user.setAño(userBean.getAño());
+		user.setAnyo(userBean.getAnyo());
 		user.setVezCursando(userBean.getVezCursando());
 		user.setEdad(userBean.getEdad());
 		
@@ -239,7 +239,7 @@ public String save() {
 		user.setMaterno(userBean.getMaterno());
 		user.setMail(userBean.getMail());
 		user.setTipo(userBean.getTipo());
-		user.setAño(userBean.getAño());
+		user.setAnyo(userBean.getAnyo());
 		user.setVezCursando(userBean.getVezCursando());
 		user.setEdad(userBean.getEdad());
 		

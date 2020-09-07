@@ -59,7 +59,7 @@ import util.UserBean;
 				context.addMessage(
 						null,
 						new FacesMessage(FacesMessage.SEVERITY_WARN,
-								"No puedes ver una Relación si no has cargado una Base de Datos",
+								"No puedes ver una Relaciï¿½n si no has cargado una Base de Datos",
 								""));
 				context.getExternalContext().getFlash().setKeepMessages(true);
            		return "home";
@@ -77,7 +77,7 @@ import util.UserBean;
 				context.addMessage(
 						null,
 						new FacesMessage(FacesMessage.SEVERITY_WARN,
-								"No puedes modificar una Relación si no has cargado una Base de Datos",
+								"No puedes modificar una RelaciÃ³n si no has cargado una Base de Datos",
 								""));
 				context.getExternalContext().getFlash().setKeepMessages(true);
            		return "home";
@@ -95,7 +95,7 @@ import util.UserBean;
 				context.addMessage(
 						null,
 						new FacesMessage(FacesMessage.SEVERITY_WARN,
-								"No puedes eliminar una Relación si no has cargado una Base de Datos",
+								"No puedes eliminar una RelaciÃ³n si no has cargado una Base de Datos",
 								""));
 				context.getExternalContext().getFlash().setKeepMessages(true);
            		return "home";
@@ -113,7 +113,7 @@ import util.UserBean;
 				context.addMessage(
 						null,
 						new FacesMessage(FacesMessage.SEVERITY_WARN,
-								"No puedes agregar una Relación si no has cargado una Base de Datos",
+								"No puedes agregar una RelaciÃ³n si no has cargado una Base de Datos",
 								""));
 				context.getExternalContext().getFlash().setKeepMessages(true);
            		return "home";

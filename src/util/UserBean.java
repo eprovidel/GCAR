@@ -6,30 +6,28 @@ import java.util.List;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
- 
-@ManagedBean(name = "userBean")
-@SessionScoped
 
+@ManagedBean(name = "userBean")
 public class UserBean implements Serializable {
-//	 private static final long serialVersionUID = 1L; 
-	 private String rut;
-	 private String pass;
-	 private String nombre1;
-	 private String nombre2;
-	 private String paterno;
-	 private String materno;
-	 private String mail;
-	 private String año;
-	 private String vezCursando;
-	 private String edad;
-	 private int tipo;
-	 
-	 private Calendar inicioSesion;
-	 private List<Ejercicio> ejercicios;
-	 private Resultado resultado;
-	 
+	//	 private static final long serialVersionUID = 1L; 
+	private String rut;
+	private String pass;
+	private String nombre1;
+	private String nombre2;
+	private String paterno;
+	private String materno;
+	private String mail;
+	private String anyo;
+	private String vezCursando;
+	private String edad;
+	private int tipo;
+
+	private Calendar inicioSesion;
+	private List<Ejercicio> ejercicios;
+	private Resultado resultado;
+
 	public UserBean(){
-			 
+
 	}
 
 	public String getRut() {
@@ -88,12 +86,12 @@ public class UserBean implements Serializable {
 		this.mail = mail;
 	}
 
-	public String getAño() {
-		return año;
+	public String getAnyo() {
+		return anyo;
 	}
 
-	public void setAño(String año) {
-		this.año = año;
+	public void setAnyo(String anyo) {
+		this.anyo = anyo;
 	}
 
 	public String getVezCursando() {
@@ -143,7 +141,7 @@ public class UserBean implements Serializable {
 	public void setResultado(Resultado resultado) {
 		this.resultado = resultado;
 	}
-	
-	
-		 
+
+
+
 }

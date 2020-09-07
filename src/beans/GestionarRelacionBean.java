@@ -55,28 +55,6 @@ public class GestionarRelacionBean implements Serializable {
 	public void setPrimarios(List<String> primarios) {
 		this.primarios = primarios;
 	}
-
-//	@PostConstruct
-//    public void init(){
-		
-//		primarios.add("Sí");
-//		primarios.add("No");
-//		ELContext elContext = FacesContext.getCurrentInstance().getELContext();
-//    	EsquemaBean esquemaBean = (EsquemaBean) FacesContext.getCurrentInstance().getApplication()
-//			    .getELResolver().getValue(elContext, null, "bd");
-//    	
-//    	if(esquemaBean != null){
-//        	Util.reloadBd();
-//        	primarios.add("Sí");
-//        	primarios.add("No");
-//    	}else{
-//    		try {
-//				FacesContext.getCurrentInstance().getExternalContext().redirect("error.xhtml");
-//			} catch (Exception e) {
-//				System.out.println("No pude redireccionar");
-//			}
-//    	}
-//    }
 	
 	@PreDestroy
 	public void destroy(){
@@ -318,11 +296,11 @@ public class GestionarRelacionBean implements Serializable {
 	    		
 	    	}
 			
-			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se ha agregado la Relación " + relacion.getNombre(),"");
+			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se ha agregado la Relaciï¿½n " + relacion.getNombre(),"");
             FacesContext.getCurrentInstance().addMessage(null, msg);
             return "home";
 		}else{
-			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al crear la Relación", "");
+			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al crear la Relaciï¿½n", "");
             FacesContext.getCurrentInstance().addMessage(null, msg);
             return "agregarRelacion";
 		}
@@ -382,11 +360,11 @@ public class GestionarRelacionBean implements Serializable {
 	    	}
 	    		
     		
-			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se ha eliminado la Relación ","");
+			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se ha eliminado la Relaciï¿½n ","");
             FacesContext.getCurrentInstance().addMessage(null, msg);
             return "eliminarRelacion";
 		}else{
-			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al eliminar la Relación", "");
+			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al eliminar la Relaciï¿½n", "");
             FacesContext.getCurrentInstance().addMessage(null, msg);
             return "eliminarRelacion";
 		}
@@ -403,7 +381,7 @@ public class GestionarRelacionBean implements Serializable {
     	boolean band = false;
     	for(AtributoBean a: selectedRelacion.getAtributos()){
     		if(a.getNombre() == null){
-    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"El Nombre del Atributo no debe ser vacío","");
+    			FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"El Nombre del Atributo no debe ser vacï¿½o","");
                 FacesContext.getCurrentInstance().addMessage(null, msg);
                 band = true;
                 break;
@@ -413,13 +391,13 @@ public class GestionarRelacionBean implements Serializable {
     			Matcher mat1 = pat1.matcher(a.getNombre());
     			Matcher mat2 = pat2.matcher(a.getNombre());
     			if(mat1.matches()){
-    				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"El Nombre del Atributo no debe ser vacío","");
+    				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"El Nombre del Atributo no debe ser vacï¿½o","");
                     FacesContext.getCurrentInstance().addMessage(null, msg);
                     band = true;
                     break;
     			}
     			if(!mat2.matches()){
-    				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"La Atributo debe comenzar con una letra y sólo debe contener caracteres alfanuméricos o el guión bajo","");
+    				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"La Atributo debe comenzar con una letra y sï¿½lo debe contener caracteres alfanumï¿½ricos o el guiï¿½n bajo","");
                     FacesContext.getCurrentInstance().addMessage(null, msg);
                     band = true;
                     break;
@@ -473,10 +451,10 @@ public class GestionarRelacionBean implements Serializable {
 		    		
 		    	}
 		    					
-				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se ha modificado la Relación " + selectedRelacion.getNombre(),"");
+				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se ha modificado la Relaciï¿½n " + selectedRelacion.getNombre(),"");
 	            FacesContext.getCurrentInstance().addMessage(null, msg);
 			}else{
-				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al modificar la Relación", "");
+				FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_ERROR,"Error al modificar la Relaciï¿½n", "");
 	            FacesContext.getCurrentInstance().addMessage(null, msg);
 			}
 		}

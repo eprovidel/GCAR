@@ -159,7 +159,7 @@ public class HacerConsultaBean implements Serializable {
 						resultado.setNombre("ERROR: no puedes usar etiquetas del lenguaje como nombre");
 						band = true;
 					}else if(esquema.isRelacion(test[0])){
-						resultado.setNombre("ERROR: no puedes reasignar una relación de la lista de Relaciones");
+						resultado.setNombre("ERROR: no puedes reasignar una relaciï¿½n de la lista de Relaciones");
 						band = true;
 					}
 					
@@ -484,7 +484,7 @@ public class HacerConsultaBean implements Serializable {
 						aux1[1] = aux1[1].replaceAll(" ","");
 						
 						if(aux1[0].equals("")){
-							// Sólo renombra los atributos
+							// Solo renombra los atributos
 							
 							aux1[2] = aux1[2].replaceAll("\\)","");
 							aux1[2] = aux1[2].replaceAll(" ","");
@@ -813,7 +813,7 @@ public class HacerConsultaBean implements Serializable {
 						aux1[1] = aux1[1].replaceAll(" ","");
 						
 						if(aux1[0].equals("")){
-							// Sólo renombra los atributos
+							// Solo renombra los atributos
 							
 							aux1[2] = aux1[2].replaceAll("\\)","");
 							aux1[2] = aux1[2].replaceAll(" ","");

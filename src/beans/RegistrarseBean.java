@@ -13,9 +13,8 @@ import util.UserBean;
 import dao.UserDAO;
 
 @ManagedBean(name = "registrarseBean")
-
 public class RegistrarseBean {
-	
+
 	private UserBean userBean;
 
 	public UserBean getUserBean() {
@@ -26,18 +25,18 @@ public class RegistrarseBean {
 		this.userBean = userBean;
 	}
 
-	public String registrarse(){
-		
-Calendar inicioSesion = new GregorianCalendar();
-		
+	public String registrarse() {
+
+		Calendar inicioSesion = new GregorianCalendar();
+
 		ELContext elContext = FacesContext.getCurrentInstance().getELContext();
 		userBean = (UserBean) FacesContext.getCurrentInstance().getApplication()
-			    .getELResolver().getValue(elContext, null, "userBean");
-		
+				.getELResolver().getValue(elContext, null, "userBean");
+
 		userBean = UserDAO.registrarAlumno(userBean);
 		if (userBean != null) {
 			if(userBean.getNombre1().equals("duplicado")){
-				
+
 				userBean = null;
 				FacesContext  context = FacesContext.getCurrentInstance();
 				context.addMessage(
@@ -45,25 +44,25 @@ Calendar inicioSesion = new GregorianCalendar();
 						new FacesMessage(FacesMessage.SEVERITY_ERROR,
 								"Este usuario ya tiene un cuenta",""));
 				context.getExternalContext().getFlash().setKeepMessages(true);
-				
+
 				return "login";
-				
+
 			}else{
-				
+
 				// get Http Session and store username
 				HttpSession session = Util.getSession();
-				
+
 				userBean.setInicioSesion(inicioSesion);
-				
+
 				session.setAttribute("rut", userBean.getRut());
 				session.setAttribute("nombre", userBean.getNombre1());
 				session.setAttribute("pass", userBean.getPass());
 				session.setAttribute("tipo", userBean.getTipo());
 				session.setAttribute("usuario", userBean);
-	
-				System.out.println("Sesión iniciada con: "+session.getAttribute("nombre"));
+
+				System.out.println("SesiÃ³n iniciada con: "+session.getAttribute("nombre"));
 				System.out.println("Tipo: " + session.getAttribute("tipo"));
-				
+
 				FacesContext  context = FacesContext.getCurrentInstance();
 				context.addMessage(
 						null,
@@ -71,9 +70,9 @@ Calendar inicioSesion = new GregorianCalendar();
 								"Bienvenido " + userBean.getNombre1() + " " + userBean.getPaterno(),
 								""));
 				context.getExternalContext().getFlash().setKeepMessages(true);
-				
+
 				return "home";
-				
+
 			}
 		} else {
 			FacesContext  context = FacesContext.getCurrentInstance();
@@ -84,6 +83,6 @@ Calendar inicioSesion = new GregorianCalendar();
 			context.getExternalContext().getFlash().setKeepMessages(true);
 			return "login";
 		}
-	
+
 	}
 }

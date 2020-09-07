@@ -1,6 +1,6 @@
 package parser;
 
-// $ANTLR 3.5.1 D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g 2014-09-10 15:43:16
+// $ANTLR 3.5.1 D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g 2014-09-10 15:43:16
 
 import org.antlr.runtime.*;
 import java.util.Stack;
@@ -84,18 +84,18 @@ public class AlgebraRelacionalParser extends Parser {
 	}
 
 	@Override public String[] getTokenNames() { return AlgebraRelacionalParser.tokenNames; }
-	@Override public String getGrammarFileName() { return "D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g"; }
+	@Override public String getGrammarFileName() { return "D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g"; }
 
 
 
 	// $ANTLR start "st"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:1: st : ( asg | con ) ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:1: st : ( asg | con ) ;
 	public final void st() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:5: ( ( asg | con ) )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:7: ( asg | con )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:5: ( ( asg | con ) )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:7: ( asg | con )
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:7: ( asg | con )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:7: ( asg | con )
 			int alt1=2;
 			int LA1_0 = input.LA(1);
 			if ( (LA1_0==CAD) ) {
@@ -132,7 +132,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 			switch (alt1) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:9: asg
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:9: asg
 					{
 					pushFollow(FOLLOW_asg_in_st13);
 					asg();
@@ -141,7 +141,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 2 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:15: con
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:3:15: con
 					{
 					pushFollow(FOLLOW_con_in_st17);
 					con();
@@ -168,11 +168,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "asg"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:1: asg : rel ':=' con ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:1: asg : rel ':=' con ;
 	public final void asg() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:6: ( rel ':=' con )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:8: rel ':=' con
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:6: ( rel ':=' con )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:5:8: rel ':=' con
 			{
 			pushFollow(FOLLOW_rel_in_asg28);
 			rel();
@@ -199,13 +199,13 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "con"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:1: con : ( bin | select | proy | renom1 | renom2 | renom3 | join ) ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:1: con : ( bin | select | proy | renom1 | renom2 | renom3 | join ) ;
 	public final void con() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:6: ( ( bin | select | proy | renom1 | renom2 | renom3 | join ) )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:8: ( bin | select | proy | renom1 | renom2 | renom3 | join )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:6: ( ( bin | select | proy | renom1 | renom2 | renom3 | join ) )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:8: ( bin | select | proy | renom1 | renom2 | renom3 | join )
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:8: ( bin | select | proy | renom1 | renom2 | renom3 | join )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:8: ( bin | select | proy | renom1 | renom2 | renom3 | join )
 			int alt2=7;
 			switch ( input.LA(1) ) {
 			case CAD:
@@ -340,7 +340,7 @@ public class AlgebraRelacionalParser extends Parser {
 			}
 			switch (alt2) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:10: bin
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:10: bin
 					{
 					pushFollow(FOLLOW_bin_in_con43);
 					bin();
@@ -349,7 +349,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 2 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:16: select
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:16: select
 					{
 					pushFollow(FOLLOW_select_in_con47);
 					select();
@@ -358,7 +358,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 3 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:25: proy
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:25: proy
 					{
 					pushFollow(FOLLOW_proy_in_con51);
 					proy();
@@ -367,7 +367,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 4 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:32: renom1
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:32: renom1
 					{
 					pushFollow(FOLLOW_renom1_in_con55);
 					renom1();
@@ -376,7 +376,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 5 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:41: renom2
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:41: renom2
 					{
 					pushFollow(FOLLOW_renom2_in_con59);
 					renom2();
@@ -385,7 +385,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 6 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:50: renom3
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:50: renom3
 					{
 					pushFollow(FOLLOW_renom3_in_con63);
 					renom3();
@@ -394,7 +394,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 7 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:59: join
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:7:59: join
 					{
 					pushFollow(FOLLOW_join_in_con67);
 					join();
@@ -421,10 +421,10 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "bin"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:1: bin : ( rel ( 'UNION' | 'union' ) rel | rel ( 'INTER' | 'inter' ) rel | rel ( 'DIFERENCIA' | 'diferencia' ) rel | rel ( 'CRUZ' | 'cruz' ) rel | rel ( 'REUNION_NATURAL' | 'reunion_natural' ) rel | rel ( 'division' | 'DIVISION' ) rel | rel ( 'reunion_ext_izq' | 'REUNION_EXT_IZQ' ) rel | rel ( 'reunion_ext_der' | 'REUNION_EXT_DER' ) rel | rel ( 'reunion_ext_full' | 'REUNION_EXT_FULL' ) rel );
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:1: bin : ( rel ( 'UNION' | 'union' ) rel | rel ( 'INTER' | 'inter' ) rel | rel ( 'DIFERENCIA' | 'diferencia' ) rel | rel ( 'CRUZ' | 'cruz' ) rel | rel ( 'REUNION_NATURAL' | 'reunion_natural' ) rel | rel ( 'division' | 'DIVISION' ) rel | rel ( 'reunion_ext_izq' | 'REUNION_EXT_IZQ' ) rel | rel ( 'reunion_ext_der' | 'REUNION_EXT_DER' ) rel | rel ( 'reunion_ext_full' | 'REUNION_EXT_FULL' ) rel );
 	public final void bin() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:6: ( rel ( 'UNION' | 'union' ) rel | rel ( 'INTER' | 'inter' ) rel | rel ( 'DIFERENCIA' | 'diferencia' ) rel | rel ( 'CRUZ' | 'cruz' ) rel | rel ( 'REUNION_NATURAL' | 'reunion_natural' ) rel | rel ( 'division' | 'DIVISION' ) rel | rel ( 'reunion_ext_izq' | 'REUNION_EXT_IZQ' ) rel | rel ( 'reunion_ext_der' | 'REUNION_EXT_DER' ) rel | rel ( 'reunion_ext_full' | 'REUNION_EXT_FULL' ) rel )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:6: ( rel ( 'UNION' | 'union' ) rel | rel ( 'INTER' | 'inter' ) rel | rel ( 'DIFERENCIA' | 'diferencia' ) rel | rel ( 'CRUZ' | 'cruz' ) rel | rel ( 'REUNION_NATURAL' | 'reunion_natural' ) rel | rel ( 'division' | 'DIVISION' ) rel | rel ( 'reunion_ext_izq' | 'REUNION_EXT_IZQ' ) rel | rel ( 'reunion_ext_der' | 'REUNION_EXT_DER' ) rel | rel ( 'reunion_ext_full' | 'REUNION_EXT_FULL' ) rel )
 			int alt3=9;
 			int LA3_0 = input.LA(1);
 			if ( (LA3_0==CAD) ) {
@@ -504,7 +504,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 			switch (alt3) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:8: rel ( 'UNION' | 'union' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:9:8: rel ( 'UNION' | 'union' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin77);
 					rel();
@@ -525,7 +525,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 2 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:10:5: rel ( 'INTER' | 'inter' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:10:5: rel ( 'INTER' | 'inter' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin91);
 					rel();
@@ -546,7 +546,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 3 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:11:5: rel ( 'DIFERENCIA' | 'diferencia' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:11:5: rel ( 'DIFERENCIA' | 'diferencia' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin105);
 					rel();
@@ -567,7 +567,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 4 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:12:5: rel ( 'CRUZ' | 'cruz' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:12:5: rel ( 'CRUZ' | 'cruz' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin119);
 					rel();
@@ -588,7 +588,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 5 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:13:5: rel ( 'REUNION_NATURAL' | 'reunion_natural' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:13:5: rel ( 'REUNION_NATURAL' | 'reunion_natural' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin133);
 					rel();
@@ -609,7 +609,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 6 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:14:5: rel ( 'division' | 'DIVISION' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:14:5: rel ( 'division' | 'DIVISION' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin147);
 					rel();
@@ -630,7 +630,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 7 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:15:5: rel ( 'reunion_ext_izq' | 'REUNION_EXT_IZQ' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:15:5: rel ( 'reunion_ext_izq' | 'REUNION_EXT_IZQ' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin161);
 					rel();
@@ -651,7 +651,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 8 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:16:5: rel ( 'reunion_ext_der' | 'REUNION_EXT_DER' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:16:5: rel ( 'reunion_ext_der' | 'REUNION_EXT_DER' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin175);
 					rel();
@@ -672,7 +672,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 9 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:17:5: rel ( 'reunion_ext_full' | 'REUNION_EXT_FULL' ) rel
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:17:5: rel ( 'reunion_ext_full' | 'REUNION_EXT_FULL' ) rel
 					{
 					pushFollow(FOLLOW_rel_in_bin189);
 					rel();
@@ -708,11 +708,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "select"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:1: select : ( 'seleccionar' | 'SELECCIONAR' ) '(' conds1 ')' '(' rel ')' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:1: select : ( 'seleccionar' | 'SELECCIONAR' ) '(' conds1 ')' '(' rel ')' ;
 	public final void select() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:8: ( ( 'seleccionar' | 'SELECCIONAR' ) '(' conds1 ')' '(' rel ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:10: ( 'seleccionar' | 'SELECCIONAR' ) '(' conds1 ')' '(' rel ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:8: ( ( 'seleccionar' | 'SELECCIONAR' ) '(' conds1 ')' '(' rel ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:20:10: ( 'seleccionar' | 'SELECCIONAR' ) '(' conds1 ')' '(' rel ')'
 			{
 			if ( input.LA(1)==32||input.LA(1)==48 ) {
 				input.consume();
@@ -750,11 +750,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "proy"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:1: proy : ( 'proyectar' | 'PROYECTAR' ) '(' atts ')' '(' rel ')' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:1: proy : ( 'proyectar' | 'PROYECTAR' ) '(' atts ')' '(' rel ')' ;
 	public final void proy() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:6: ( ( 'proyectar' | 'PROYECTAR' ) '(' atts ')' '(' rel ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:8: ( 'proyectar' | 'PROYECTAR' ) '(' atts ')' '(' rel ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:6: ( ( 'proyectar' | 'PROYECTAR' ) '(' atts ')' '(' rel ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:22:8: ( 'proyectar' | 'PROYECTAR' ) '(' atts ')' '(' rel ')'
 			{
 			if ( input.LA(1)==25||input.LA(1)==41 ) {
 				input.consume();
@@ -792,11 +792,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "renom1"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:1: renom1 : ( 'renombrar' | 'RENOMBRAR' ) rel '(' atts ')' '(' rel ')' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:1: renom1 : ( 'renombrar' | 'RENOMBRAR' ) rel '(' atts ')' '(' rel ')' ;
 	public final void renom1() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:8: ( ( 'renombrar' | 'RENOMBRAR' ) rel '(' atts ')' '(' rel ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:10: ( 'renombrar' | 'RENOMBRAR' ) rel '(' atts ')' '(' rel ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:8: ( ( 'renombrar' | 'RENOMBRAR' ) rel '(' atts ')' '(' rel ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:24:10: ( 'renombrar' | 'RENOMBRAR' ) rel '(' atts ')' '(' rel ')'
 			{
 			if ( input.LA(1)==26||input.LA(1)==42 ) {
 				input.consume();
@@ -838,11 +838,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "renom2"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:1: renom2 : ( 'renombrar' | 'RENOMBRAR' ) rel '(' rel ')' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:1: renom2 : ( 'renombrar' | 'RENOMBRAR' ) rel '(' rel ')' ;
 	public final void renom2() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:8: ( ( 'renombrar' | 'RENOMBRAR' ) rel '(' rel ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:10: ( 'renombrar' | 'RENOMBRAR' ) rel '(' rel ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:8: ( ( 'renombrar' | 'RENOMBRAR' ) rel '(' rel ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:26:10: ( 'renombrar' | 'RENOMBRAR' ) rel '(' rel ')'
 			{
 			if ( input.LA(1)==26||input.LA(1)==42 ) {
 				input.consume();
@@ -878,11 +878,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "renom3"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:1: renom3 : ( 'renombrar' | 'RENOMBRAR' ) '(' atts ')' '(' rel ')' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:1: renom3 : ( 'renombrar' | 'RENOMBRAR' ) '(' atts ')' '(' rel ')' ;
 	public final void renom3() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:8: ( ( 'renombrar' | 'RENOMBRAR' ) '(' atts ')' '(' rel ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:10: ( 'renombrar' | 'RENOMBRAR' ) '(' atts ')' '(' rel ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:8: ( ( 'renombrar' | 'RENOMBRAR' ) '(' atts ')' '(' rel ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:28:10: ( 'renombrar' | 'RENOMBRAR' ) '(' atts ')' '(' rel ')'
 			{
 			if ( input.LA(1)==26||input.LA(1)==42 ) {
 				input.consume();
@@ -920,11 +920,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "join"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:1: join : '(' rel ')' ( 'reunion' | 'REUNION' ) '(' conds2 ')' '(' rel ')' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:1: join : '(' rel ')' ( 'reunion' | 'REUNION' ) '(' conds2 ')' '(' rel ')' ;
 	public final void join() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:6: ( '(' rel ')' ( 'reunion' | 'REUNION' ) '(' conds2 ')' '(' rel ')' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:8: '(' rel ')' ( 'reunion' | 'REUNION' ) '(' conds2 ')' '(' rel ')'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:6: ( '(' rel ')' ( 'reunion' | 'REUNION' ) '(' conds2 ')' '(' rel ')' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:30:8: '(' rel ')' ( 'reunion' | 'REUNION' ) '(' conds2 ')' '(' rel ')'
 			{
 			match(input,8,FOLLOW_8_in_join301); 
 			pushFollow(FOLLOW_rel_in_join302);
@@ -968,17 +968,17 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "atts"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:1: atts : att ( ',' att )* ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:1: atts : att ( ',' att )* ;
 	public final void atts() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:6: ( att ( ',' att )* )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:8: att ( ',' att )*
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:6: ( att ( ',' att )* )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:8: att ( ',' att )*
 			{
 			pushFollow(FOLLOW_att_in_atts322);
 			att();
 			state._fsp--;
 
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:12: ( ',' att )*
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:12: ( ',' att )*
 			loop4:
 			while (true) {
 				int alt4=2;
@@ -989,7 +989,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 				switch (alt4) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:13: ',' att
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:32:13: ',' att
 					{
 					match(input,10,FOLLOW_10_in_atts325); 
 					pushFollow(FOLLOW_att_in_atts327);
@@ -1020,17 +1020,17 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "conds1"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:1: conds1 : cond1 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )* ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:1: conds1 : cond1 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )* ;
 	public final void conds1() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:8: ( cond1 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )* )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:10: cond1 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )*
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:8: ( cond1 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )* )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:10: cond1 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )*
 			{
 			pushFollow(FOLLOW_cond1_in_conds1337);
 			cond1();
 			state._fsp--;
 
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:16: ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )*
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:16: ( ( 'and' | 'or' | 'AND' | 'OR' ) cond1 )*
 			loop5:
 			while (true) {
 				int alt5=2;
@@ -1041,7 +1041,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 				switch (alt5) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:17: ( 'and' | 'or' | 'AND' | 'OR' ) cond1
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:34:17: ( 'and' | 'or' | 'AND' | 'OR' ) cond1
 					{
 					if ( input.LA(1)==19||input.LA(1)==24||input.LA(1)==35||input.LA(1)==40 ) {
 						input.consume();
@@ -1079,17 +1079,17 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "conds2"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:1: conds2 : cond2 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )* ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:1: conds2 : cond2 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )* ;
 	public final void conds2() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:8: ( cond2 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )* )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:10: cond2 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )*
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:8: ( cond2 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )* )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:10: cond2 ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )*
 			{
 			pushFollow(FOLLOW_cond2_in_conds2369);
 			cond2();
 			state._fsp--;
 
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:16: ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )*
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:16: ( ( 'and' | 'or' | 'AND' | 'OR' ) cond2 )*
 			loop6:
 			while (true) {
 				int alt6=2;
@@ -1100,7 +1100,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 				switch (alt6) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:17: ( 'and' | 'or' | 'AND' | 'OR' ) cond2
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:36:17: ( 'and' | 'or' | 'AND' | 'OR' ) cond2
 					{
 					if ( input.LA(1)==19||input.LA(1)==24||input.LA(1)==35||input.LA(1)==40 ) {
 						input.consume();
@@ -1138,14 +1138,14 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "cond1"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:1: cond1 : ( con1 ) ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:1: cond1 : ( con1 ) ;
 	public final void cond1() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:7: ( ( con1 ) )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:9: ( con1 )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:7: ( ( con1 ) )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:9: ( con1 )
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:9: ( con1 )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:11: con1
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:9: ( con1 )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:38:11: con1
 			{
 			pushFollow(FOLLOW_con1_in_cond1403);
 			con1();
@@ -1169,13 +1169,13 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "cond2"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:1: cond2 : ( con2 | con3 ) ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:1: cond2 : ( con2 | con3 ) ;
 	public final void cond2() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:7: ( ( con2 | con3 ) )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:9: ( con2 | con3 )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:7: ( ( con2 | con3 ) )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:9: ( con2 | con3 )
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:9: ( con2 | con3 )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:9: ( con2 | con3 )
 			int alt7=2;
 			int LA7_0 = input.LA(1);
 			if ( (LA7_0==CAD) ) {
@@ -1263,7 +1263,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 			switch (alt7) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:11: con2
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:11: con2
 					{
 					pushFollow(FOLLOW_con2_in_cond2416);
 					con2();
@@ -1272,7 +1272,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 2 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:17: con3
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:40:17: con3
 					{
 					pushFollow(FOLLOW_con3_in_cond2419);
 					con3();
@@ -1299,11 +1299,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "con1"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:1: con1 : att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:1: con1 : att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons ;
 	public final void con1() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:6: ( att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:8: att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:6: ( att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:42:8: att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons
 			{
 			pushFollow(FOLLOW_att_in_con1430);
 			att();
@@ -1337,11 +1337,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "con2"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:1: con2 : rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) rel '.' att ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:1: con2 : rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) rel '.' att ;
 	public final void con2() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:6: ( rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) rel '.' att )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:8: rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) rel '.' att
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:6: ( rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) rel '.' att )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:44:8: rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) rel '.' att
 			{
 			pushFollow(FOLLOW_rel_in_con2464);
 			rel();
@@ -1385,11 +1385,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "con3"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:46:1: con3 : rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:46:1: con3 : rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons ;
 	public final void con3() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:46:6: ( rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:46:8: rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:46:6: ( rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:46:8: rel '.' att ( '=' | '<' | '<=' | '>' | '>= ' | '!=' ) cons
 			{
 			pushFollow(FOLLOW_rel_in_con3502);
 			rel();
@@ -1428,13 +1428,13 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "cons"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:1: cons : ( num | cad ) ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:1: cons : ( num | cad ) ;
 	public final void cons() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:6: ( ( num | cad ) )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:8: ( num | cad )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:6: ( ( num | cad ) )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:8: ( num | cad )
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:8: ( num | cad )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:8: ( num | cad )
 			int alt8=2;
 			int LA8_0 = input.LA(1);
 			if ( (LA8_0==NUM||LA8_0==11) ) {
@@ -1452,7 +1452,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 			switch (alt8) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:10: num
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:10: num
 					{
 					pushFollow(FOLLOW_num_in_cons540);
 					num();
@@ -1461,7 +1461,7 @@ public class AlgebraRelacionalParser extends Parser {
 					}
 					break;
 				case 2 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:16: cad
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:48:16: cad
 					{
 					pushFollow(FOLLOW_cad_in_cons544);
 					cad();
@@ -1488,13 +1488,13 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "num"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:1: num : ( '-' )? ( NUM )+ ( '.' ( NUM )+ )? ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:1: num : ( '-' )? ( NUM )+ ( '.' ( NUM )+ )? ;
 	public final void num() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:6: ( ( '-' )? ( NUM )+ ( '.' ( NUM )+ )? )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:8: ( '-' )? ( NUM )+ ( '.' ( NUM )+ )?
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:6: ( ( '-' )? ( NUM )+ ( '.' ( NUM )+ )? )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:8: ( '-' )? ( NUM )+ ( '.' ( NUM )+ )?
 			{
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:8: ( '-' )?
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:8: ( '-' )?
 			int alt9=2;
 			int LA9_0 = input.LA(1);
 			if ( (LA9_0==11) ) {
@@ -1502,7 +1502,7 @@ public class AlgebraRelacionalParser extends Parser {
 			}
 			switch (alt9) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:9: '-'
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:9: '-'
 					{
 					match(input,11,FOLLOW_11_in_num557); 
 					}
@@ -1510,7 +1510,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 			}
 
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:14: ( NUM )+
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:14: ( NUM )+
 			int cnt10=0;
 			loop10:
 			while (true) {
@@ -1522,7 +1522,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 				switch (alt10) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:15: NUM
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:15: NUM
 					{
 					match(input,NUM,FOLLOW_NUM_in_num561); 
 					}
@@ -1536,7 +1536,7 @@ public class AlgebraRelacionalParser extends Parser {
 				cnt10++;
 			}
 
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:20: ( '.' ( NUM )+ )?
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:20: ( '.' ( NUM )+ )?
 			int alt12=2;
 			int LA12_0 = input.LA(1);
 			if ( (LA12_0==12) ) {
@@ -1544,10 +1544,10 @@ public class AlgebraRelacionalParser extends Parser {
 			}
 			switch (alt12) {
 				case 1 :
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:21: '.' ( NUM )+
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:21: '.' ( NUM )+
 					{
 					match(input,12,FOLLOW_12_in_num565); 
-					// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:24: ( NUM )+
+					// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:24: ( NUM )+
 					int cnt11=0;
 					loop11:
 					while (true) {
@@ -1559,7 +1559,7 @@ public class AlgebraRelacionalParser extends Parser {
 
 						switch (alt11) {
 						case 1 :
-							// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:25: NUM
+							// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:50:25: NUM
 							{
 							match(input,NUM,FOLLOW_NUM_in_num567); 
 							}
@@ -1594,11 +1594,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "cad"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:52:1: cad : '\\u0027' CAD '\\u0027' ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:52:1: cad : '\\u0027' CAD '\\u0027' ;
 	public final void cad() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:52:6: ( '\\u0027' CAD '\\u0027' )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:52:8: '\\u0027' CAD '\\u0027'
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:52:6: ( '\\u0027' CAD '\\u0027' )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:52:8: '\\u0027' CAD '\\u0027'
 			{
 			match(input,34,FOLLOW_34_in_cad580); 
 			match(input,CAD,FOLLOW_CAD_in_cad581); 
@@ -1619,11 +1619,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "att"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:54:1: att : CAD ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:54:1: att : CAD ;
 	public final void att() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:54:6: ( CAD )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:54:8: CAD
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:54:6: ( CAD )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:54:8: CAD
 			{
 			match(input,CAD,FOLLOW_CAD_in_att593); 
 			}
@@ -1642,11 +1642,11 @@ public class AlgebraRelacionalParser extends Parser {
 
 
 	// $ANTLR start "rel"
-	// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:56:1: rel : CAD ;
+	// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:56:1: rel : CAD ;
 	public final void rel() throws RecognitionException {
 		try {
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:56:6: ( CAD )
-			// D:\\U\\Ingenieria Civil Informatica\\6º año\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:56:8: CAD
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:56:6: ( CAD )
+			// D:\\U\\Ingenieria Civil Informatica\\6o anyo\\Semestre XI\\Seminario de Titulo\\Documentos\\SW\\AR\\AlgebraRelacional.g:56:8: CAD
 			{
 			match(input,CAD,FOLLOW_CAD_in_rel603); 
 			}

@@ -71,7 +71,7 @@ public class RelacionDAO {
 					AtributoBean atributoBean = new AtributoBean();
 					atributoBean.setNombre(rs1.getString(1));
 					if(rs1.getString(2).equals("NO"))
-						atributoBean.setEsPrimario("Sí");
+						atributoBean.setEsPrimario("SÃ­");
 					else
 						atributoBean.setEsPrimario("No");
 					if(rs1.getString(3).equals("integer"))
@@ -170,7 +170,7 @@ public class RelacionDAO {
 					AtributoBean atributoBean = new AtributoBean();
 					atributoBean.setNombre(rs1.getString(1));
 					if(rs1.getString(2).equals("NO"))
-						atributoBean.setEsPrimario("Sí");
+						atributoBean.setEsPrimario("SÃ­");
 					else
 						atributoBean.setEsPrimario("No");
 					if(rs1.getString(3).equals("integer"))
@@ -249,7 +249,7 @@ public class RelacionDAO {
 			}
 			query = query + "primary key(";
 			for(Atributo a : relacion.getAtributos()){
-				if(a.getEsPrimario().equals("Sí")){
+				if(a.getEsPrimario().equals("SÃ­")){
 					query = query + a.getNombre() + ",";
 				}
 			}
@@ -380,7 +380,7 @@ public class RelacionDAO {
 			}
 			query = query + "primary key(";
 			for(AtributoBean a : relacion.getAtributos()){
-				if(a.getEsPrimario().equals("Sí")){
+				if(a.getEsPrimario().equals("SÃ­")){
 					query = query + a.getNombre() + ",";
 				}
 			}
@@ -588,7 +588,7 @@ public class RelacionDAO {
 					AtributoBean atributoBean = new AtributoBean();
 					atributoBean.setNombre(rs1.getString(1));
 					if(rs1.getString(2).equals("NO"))
-						atributoBean.setEsPrimario("Sí");
+						atributoBean.setEsPrimario("SÃ­");
 					else
 						atributoBean.setEsPrimario("No");
 					if(rs1.getString(3).equals("integer"))
@@ -650,7 +650,7 @@ public class RelacionDAO {
 					AtributoBean atributoBean = new AtributoBean();
 					atributoBean.setNombre(rs1.getString(1));
 					if(rs1.getString(2).equals("NO"))
-						atributoBean.setEsPrimario("Sí");
+						atributoBean.setEsPrimario("SÃ­");
 					else
 						atributoBean.setEsPrimario("No");
 					if(rs1.getString(3).equals("integer"))

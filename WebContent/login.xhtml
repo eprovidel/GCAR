@@ -27,6 +27,7 @@
 </h:head>
   
 <h:body class="login-page">
+	
     <div class="login-box">
     	
     	<div class="login-logo">
@@ -62,9 +63,9 @@
           		<div class="row">
 		            <div class="col-xs-12">
 		            	<p:spacer></p:spacer>
-		              	<p:commandButton id="ingresarButton" action="#{loginBean.loginUser}" value="Ingresar" update="msg"
+		              	<p:commandButton id="ingresarButton" action="#{newLoginBean.loginUser}" value="Ingresar" update="msg"
 		              		styleClass="btn btn-primary btn-block btn-flat">
-			         	</p:commandButton>			      
+			         	</p:commandButton>
 		            </div><!-- /.col -->
 		     	</div>
 		 	</h:form>

@@ -531,7 +531,7 @@ public class EstadisticasView implements Serializable {
     	}
     	
     	descargar = true;
-    	FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se han generado todas las Estadísticas","");
+    	FacesMessage msg = new FacesMessage(FacesMessage.SEVERITY_INFO,"Se han generado todas las Estadisticas","");
    		FacesContext.getCurrentInstance().addMessage(null, msg);
     }
     

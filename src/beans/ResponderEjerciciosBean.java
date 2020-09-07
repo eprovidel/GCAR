@@ -486,7 +486,7 @@ public class ResponderEjerciciosBean implements Serializable {
 						consulta.setError("Consulta utiliza Tokens");
 						band = true;
 					}else if(esquema.isRelacion(test[0])){
-						resultado.setNombre("ERROR: no puedes reasignar una relación de la lista de Relaciones");
+						resultado.setNombre("ERROR: no puedes reasignar una relaciÃ³n de la lista de Relaciones");
 						consulta.setError("Consulta renombra Relacion del Esquema original");
 						band = true;
 					}
