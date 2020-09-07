@@ -47,22 +47,18 @@ public class NewLoginBean {
 			System.out.println(userBean);		
 
 			if (userBean != null) {
-				
+
 				// get Http Session and store username
 				HttpSession session = Util.getSession();				
 				userBean.setInicioSesion(inicioSesion);
-				
-				
+
+
 				session.setAttribute("rut", userBean.getRut());
 				session.setAttribute("nombre", userBean.getNombre1());
 				session.setAttribute("pass", userBean.getPass());
 				session.setAttribute("tipo", userBean.getTipo());
-				session.setAttribute("usuario", userBean);
+				session.setAttribute("usuario", userBean);				
 
-				/*
-				System.out.println("Sesión iniciada con: "+session.getAttribute("nombre"));
-				System.out.println("Tipo: " + session.getAttribute("tipo"));
-				*/
 				FacesContext  context = FacesContext.getCurrentInstance();
 				context.addMessage(
 						null,
@@ -72,8 +68,8 @@ public class NewLoginBean {
 				context.getExternalContext().getFlash().setKeepMessages(true);				
 
 				return "home";
-				 
-			} /*else {
+
+			} else {
 				FacesContext  context = FacesContext.getCurrentInstance();
 				context.addMessage(
 						null,
@@ -83,16 +79,12 @@ public class NewLoginBean {
 				HttpSession session = Util.getSession();
 				session.invalidate();
 				return "login";
-			}	*/		 
-			return "login";
-
+			}
 		} catch (Exception ex) {
 			System.err.println("EXCEPTION IN LOGIN USER");
 			ex.printStackTrace();
-			return "error";
+			return "login";
 		}
-
-
 	}
 
 	/*
